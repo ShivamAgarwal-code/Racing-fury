@@ -1,0 +1,28 @@
+{
+  "name": "fury-racing",
+  "version": "1.2.1",
+  "description": "Onchain racing manager leveraging Chainlink VRF v2.5, Chainlink Functions, and Chainlink Automation.",
+  "license": "BSL-1.1",
+  "author": "Pedrojok01",
+  "contributors": [
+    {
+      "name": "joetoday"
+    }
+  ],
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "serverless",
+    "express",
+    "viem"
+  ],
+  "dependencies": {
+    "body-parser": "1.20.3",
+    "express": "4.21.0",
+    "express-validator": "7.2.0",
+    "serverless-http": "3.2.0",
+    "viem": "2.21.15"
+  }
+}
